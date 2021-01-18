@@ -1,0 +1,1 @@
+exiftool IDC_BHVP/25-54_1978.tif |awk -F': ' '/^Image Width/,/^Image Height/{print $2}'
